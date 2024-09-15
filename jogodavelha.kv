@@ -1,0 +1,126 @@
+<Tela>
+    GridLayout:
+        pos:0,300
+        cols: 3
+        col_default_width: 100
+        row_default_height: 100
+        Button:
+            font_size: 60
+            id: um
+            text:''
+            on_release: root.on_release(0,0)
+            on_release: root.tabuleirojogos(0,0)
+        Button:
+            font_size: 60
+            id: dois
+            text:''
+            on_release: root.on_release(0,1)
+            on_release: root.tabuleirojogos(0,1)
+        Button:
+            font_size: 60
+            id: tres
+            text:''
+            on_release: root.on_release(0,2)
+            on_release: root.tabuleirojogos(0,2)
+        Button:
+            font_size: 60
+            id: quatro
+            text:''
+            on_release: root.on_release(1,0)
+            on_release: root.tabuleirojogos(1,0)
+        Button:
+            font_size: 60
+            id: cinco
+            text:''
+            on_release: root.on_release(1,1)
+            on_release: root.tabuleirojogos(1,1)
+        Button:
+            font_size: 60
+            id: seis
+            text:''
+            on_release: root.on_release(1,2)
+            on_release: root.tabuleirojogos(1,2)
+        Button:
+            font_size: 60
+            id: sete
+            text:''
+            on_release: root.on_release(2,0)
+            on_release: root.tabuleirojogos(2,0)
+        Button:
+            font_size: 60
+            id: oito
+            text:''
+            on_release: root.on_release(2,1)
+            on_release: root.tabuleirojogos(2,1)
+        Button:
+            font_size: 60
+            id: nove
+            text:''
+            on_release: root.on_release(2,2)
+            on_release: root.tabuleirojogos(2,2)
+        Button:
+            font_size: 25
+            id: reset
+            text: "Resetar"
+            on_release: root.reset()
+        Label:
+            id: vitoriaX
+            text: "Vitórias\nPlayer X: 0"
+        Label:
+            id: vitoriaO
+            text: "Vitórias\nPlayer O: 0"
+
+    BoxLayout:
+        pos: 310,300
+        Label:
+            text: 'Última partida:'
+    Label:
+        pos: 300, 0
+        id: velha
+        text: "Velha: 0"
+    GridLayout:
+        pos: 400,300
+        cols: 3
+        col_default_width: 100
+        row_default_height: 100
+        Label:
+            id: vum
+            font_size: 60
+            text: ""
+        Label:
+            id: vdois
+            font_size: 60
+            text: "" 
+        Label:
+            id: vtres
+            font_size: 60
+            text: ""
+        Label:
+            id: vquatro
+            font_size: 60
+            text: ""
+        Label:
+            id: vcinco
+            font_size: 60
+            text: ""      
+        Label:
+            id: vseis
+            font_size: 60
+            text: ""
+        Label:
+            id: vsete
+            font_size: 60
+            text: ""
+        Label:
+            id: voito
+            font_size: 60
+            text: ""
+        Label:
+            id: vnove
+            font_size: 60
+            text: ""
+    GridLayout:
+        pos:0,300
+        cols: 3
+        col_default_width: 100
+        row_default_height: 100
