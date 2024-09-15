@@ -1,4 +1,4 @@
-# Projeto Jogo da Velha com Kivy <img width = "30" height = "30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+# Projeto Jogo da Velha com Kivy  <img width = "30" height = "30" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
 
 Este repositório contém um Jogo da Velha desenvolvido em Python usando o framework Kivy para a criação da interface gráfica. O jogo segue as regras clássicas do Jogo da Velha e permite que dois jogadores alternem entre si, utilizando o mouse para jogar.
 
